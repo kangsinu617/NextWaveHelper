@@ -1,0 +1,9 @@
+user_id,feature,usage_count
+101,task_create,6
+102,team_invite,1
+103,task_create,12
+104,note_create,4
+105,notification_rule,2
+106,task_create,3
+107,team_invite,0
+108,note_create,2

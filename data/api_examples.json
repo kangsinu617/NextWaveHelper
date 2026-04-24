@@ -1,1 +1,26 @@
-
+{
+  "create_task": {
+    "endpoint": "/api/tasks",
+    "method": "POST",
+    "example_request": {
+      "user_id": 101,
+      "title": "회의 준비"
+    }
+  },
+  "invite_team_member": {
+    "endpoint": "/api/team/invite",
+    "method": "POST",
+    "example_request": {
+      "team_id": 12,
+      "email": "member@email.com"
+    }
+  },
+  "create_notification": {
+    "endpoint": "/api/notifications",
+    "method": "POST",
+    "example_request": {
+      "user_id": 101,
+      "message": "협업 기능을 사용해보세요."
+    }
+  }
+}

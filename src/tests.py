@@ -18,7 +18,7 @@ import json
 import sys
 import time
 
-from prototype.core import (
+from src.core import (
     generate_tasks,
     load_feature_usage_logs,
     load_user_segment,

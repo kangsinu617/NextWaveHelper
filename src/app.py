@@ -18,7 +18,7 @@ from fastapi.responses import HTMLResponse, JSONResponse
 from fastapi.templating import Jinja2Templates
 from pydantic import BaseModel
 
-from prototype.core import (
+from src.core import (
     USER_TYPES,
     generate_tasks,
     load_feature_usage_logs,

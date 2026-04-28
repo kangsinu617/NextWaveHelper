@@ -13,7 +13,7 @@ import argparse
 import json
 import sys
 
-from prototype.core import (
+from src.core import (
     USER_TYPES,
     generate_tasks,
     load_feature_usage_logs,

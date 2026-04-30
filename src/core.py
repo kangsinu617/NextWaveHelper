@@ -1,13 +1,3 @@
-"""NextSync Guide 코어 — 데이터 로딩 · Profiler · Recommender · Task Generator · Mock API.
-
-모듈별 책임:
-  - load_*         : data/ CSV·JSON 로더
-  - profile_user   : user_id → user_type 매핑 (신규면 fallback 유형 반환)
-  - recommend      : 유형별 우선 기능 랭킹 (usage_logs 집계 + cold-start fallback)
-  - generate_tasks : Gemini 호출, few-shot 프롬프트로 JSON 산출물 생성
-  - post_mock      : 실제 HTTP 대신 콘솔 로깅
-"""
-
 from __future__ import annotations
 
 import csv
